@@ -34,7 +34,7 @@ You will need a .env file with contents similar to:
 
 ```
 # .env
-DISCORD_TOKEN=<discord token>
-DISCORD_GUILD=<discord server name>
-DISCORD_CHANNEL=<id of the channel the bot will post to>
+DISCORD_TOKEN = <discord token>
+DISCORD_GUILD = <discord server name>
+DISCORD_CHANNEL = <id of the channel the bot will post to>
 ```
