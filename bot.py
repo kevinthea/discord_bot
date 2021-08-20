@@ -36,9 +36,9 @@ async def on_message(message):
         	title = "Welcome!",
         	description="Introduce yourself and enjoy your stay" + "\n" + "...",
     	)
-    	##################################################
-    	##TODO : Use local assets instead of online URLS##
-		##################################################
+    	####################################################
+    	## TODO : Use local assets instead of online URLS ##
+		####################################################
 		## This works fine
     	# embed_msg.set_image(url="https://c.tenor.com/xLkmU4JRI7oAAAAC/wave-snorlax.gif")
     	##
