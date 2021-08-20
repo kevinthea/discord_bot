@@ -8,11 +8,13 @@ https://discordpy.readthedocs.io/en/stable/discord.html
 Current features:
 
 -welcome
+
 This is a generic welcome message
 
 ![alt text](https://i.imgur.com/wQLZbN3.png)
 
--roll
+-roll x y
+
 This rolls x dices with y sides
 
 ![alt text](https://i.imgur.com/sUcieaw.png)
