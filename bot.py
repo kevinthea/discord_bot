@@ -7,6 +7,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
+# bot token, actual value shouldn't be exposed
 TOKEN = os.getenv('DISCORD_TOKEN')
 
 # server name
@@ -38,6 +39,7 @@ async def on_message(message):
     	## This works fine
     	# embed_msg.set_image(url="https://c.tenor.com/xLkmU4JRI7oAAAAC/wave-snorlax.gif")
     	##
+
     	#assets_path = os.path.join(__file__, 'wave-snorlax.gif')
     	#print(assets_path)
     	#file = discord.File(assets_path, filename="wave-snorlax.gif")
@@ -47,6 +49,7 @@ async def on_message(message):
     	##print(dir)
     	#rel_dir = "assets/wave-snorlax.gif"
     	#abs_dir = os.path.join (script_dir, rel_dir)
+
     	await client.get_channel(CHANNEL_ID).send(embed=embed_msg)
 
 @client.event
