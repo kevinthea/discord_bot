@@ -40,15 +40,20 @@ async def on_message(message):
     	# embed_msg.set_image(url="https://c.tenor.com/xLkmU4JRI7oAAAAC/wave-snorlax.gif")
     	##
 
-    	#assets_path = os.path.join(__file__, 'wave-snorlax.gif')
+    	##TODO
+    	#Use local assets instead of online URLS
+    	##
+    	
+    	#assets_path = Path(__file__)
+    	#assets_path = assets_path / "assets"
     	#print(assets_path)
+    	#print(type(assets_path))
+    	#p = assets_path.glob('**/*')
+    	#files = [x for x in p if x.is_file()]
+    	#print(files)
+    	#os.listdir(assets_path)
     	#file = discord.File(assets_path, filename="wave-snorlax.gif")
     	#embed_msg.set_image(url="attachment://wave-snorlax.gif")
-    	#script_dir = Path(__file__)
-    	#asset_path = os.path.join(dir,"assets")
-    	##print(dir)
-    	#rel_dir = "assets/wave-snorlax.gif"
-    	#abs_dir = os.path.join (script_dir, rel_dir)
 
     	await client.get_channel(CHANNEL_ID).send(embed=embed_msg)
 
