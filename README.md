@@ -25,8 +25,6 @@ Things I would like to eventually add:
 
 . music integration
 
-. minecraft white list, something like... "-whitelist _username_"
-
 
 ======================================================================
 
